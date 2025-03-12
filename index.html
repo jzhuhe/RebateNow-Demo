@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysioPlus - Professional Physiotherapy Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>PhysioPlus</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking" class="btn-primary">Book Now</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Expert Physiotherapy Care</h1>
+                <p>Specialized treatment plans to help you recover, strengthen, and thrive.</p>
+                <a href="#booking" class="btn-primary">Book an Appointment</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-walking"></i>
+                    </div>
+                    <h3>Sports Rehabilitation</h3>
+                    <p>Specialized treatment for sports-related injuries to get you back in the game faster.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Clinical Physiotherapy</h3>
+                    <p>Comprehensive assessment and treatment for a wide range of musculoskeletal conditions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Post-Surgery Rehabilitation</h3>
+                    <p>Tailored recovery programs to restore function and mobility after surgical procedures.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Neurological Rehabilitation</h3>
+                    <p>Specialized care for patients with neurological conditions to improve quality of life.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Pediatric Physiotherapy</h3>
+                    <p>Gentle and effective treatment approaches for children with developmental or physical challenges.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-holding-medical"></i>
+                    </div>
+                    <h3>Chronic Pain Management</h3>
+                    <p>Evidence-based strategies to manage and reduce chronic pain for improved daily functioning.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <h2 class="section-title">Meet Our Expert Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="Headshots/alexander-hipp-iEEBWgY_6lA-unsplash.jpg" alt="Dr. Alexander Phillips">
+                    </div>
+                    <h3>Dr. Alexander Phillips</h3>
+                    <p class="member-title">Senior Physiotherapist</p>
+                    <p>Specializing in sports injuries and rehabilitation with over 15 years of experience.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="Headshots/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="Dr. Sarah Johnson">
+                    </div>
+                    <h3>Dr. Sarah Johnson</h3>
+                    <p class="member-title">Clinical Director</p>
+                    <p>Expert in neurological rehabilitation and chronic pain management.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="Headshots/josh-scorpio-H3Tuh0hwYQk-unsplash.jpg" alt="Dr. Michael Chen">
+                    </div>
+                    <h3>Dr. Michael Chen</h3>
+                    <p class="member-title">Physiotherapist</p>
+                    <p>Specialized in post-surgical rehabilitation and manual therapy techniques.</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="Headshots/clay-elliot-mpDV4xaFP8c-unsplash.jpg" alt="Dr. James Wilson">
+                    </div>
+                    <h3>Dr. James Wilson</h3>
+                    <p class="member-title">Sports Rehabilitation</p>
+                    <p>Former athlete with expertise in sports-specific rehabilitation protocols.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Patients Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <p>"After my knee surgery, I was worried about getting back to running. Dr. Phillips created a personalized recovery plan that had me back on the track in just 3 months!"</p>
+                        <div class="testimonial-author">
+                            <h4>Robert Thompson</h4>
+                            <p>Marathon Runner</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"The team at PhysioPlus is exceptional. They take the time to understand your specific needs and create treatment plans that actually work. My chronic back pain is finally manageable."</p>
+                        <div class="testimonial-author">
+                            <h4>Jennifer Adams</h4>
+                            <p>Office Professional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <p>"Dr. Rodriguez worked wonders with my 7-year-old son who has cerebral palsy. Her patience and expertise have made a tremendous difference in his mobility and confidence."</p>
+                        <div class="testimonial-author">
+                            <h4>Michael Stevenson</h4>
+                            <p>Parent</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About PhysioPlus</h2>
+                    <p>Founded in 2010, PhysioPlus has been dedicated to providing exceptional physiotherapy care to our community. Our team of highly qualified physiotherapists combines evidence-based practices with personalized care to help our patients achieve optimal health and wellness.</p>
+                    <p>We believe in a holistic approach to rehabilitation, addressing not just the symptoms but the root causes of physical issues. Our state-of-the-art facility is equipped with the latest technology and therapeutic equipment to ensure the best possible outcomes for our patients.</p>
+                    <p>At PhysioPlus, we're committed to ongoing education and staying at the forefront of physiotherapy advancements to deliver the highest standard of care.</p>
+                </div>
+                <div class="about-image">
+                    <img src="Images/sincerely-media-mvHuY-t4QII-unsplash.jpg" alt="PhysioPlus Clinic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>123 Healing Street, Wellness District<br>Sydney, NSW 2000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(02) 1234 5678</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@physioplus.com.au</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Monday - Friday: 7am - 7pm<br>Saturday: 8am - 2pm<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26512.19357862248!2d151.20000000000002!3d-33.87!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae401e8b983f%3A0x5017d681632ccc0!2sSydney%20NSW%202000%2C%20Australia!5e0!3m2!1sen!2sus!4v1646956744158!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <div class="booking-container">
+                <div class="booking-steps">
+                    <div class="step active" data-step="1">
+                        <div class="step-number">1</div>
+                        <div class="step-text">Personal Details</div>
+                    </div>
+                    <div class="step" data-step="2">
+                        <div class="step-number">2</div>
+                        <div class="step-text">Appointment Details</div>
+                    </div>
+                    <div class="step" data-step="3">
+                        <div class="step-number">3</div>
+                        <div class="step-text">Health Insurance</div>
+                    </div>
+                    <div class="step" data-step="4">
+                        <div class="step-number">4</div>
+                        <div class="step-text">Payment</div>
+                    </div>
+                    <div class="step" data-step="5">
+                        <div class="step-number">5</div>
+                        <div class="step-text">Confirmation</div>
+                    </div>
+                </div>
+
+                <div class="booking-form-container">
+                    <!-- Step 1: Personal Details -->
+                    <form id="booking-form-step-1" class="booking-form active">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number*</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="issue">Describe Your Issue*</label>
+                            <textarea id="issue" name="issue" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="referral">Upload Referral (if any)</label>
+                            <input type="file" id="referral" name="referral">
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn-next">Next</button>
+                        </div>
+                    </form>
+
+                    <!-- Step 2: Appointment Details -->
+                    <form id="booking-form-step-2" class="booking-form">
+                        <div class="form-group">
+                            <label for="consult-type">Consultation Type*</label>
+                            <select id="consult-type" name="consult-type" required>
+                                <option value="">Select a consultation type</option>
+                                <option value="initial">Initial Assessment (60 min) - $120</option>
+                                <option value="follow-up">Follow-up Session (45 min) - $90</option>
+                                <option value="extended">Extended Session (90 min) - $160</option>
+                                <option value="sports">Sports Injury Assessment (60 min) - $130</option>
+                                <option value="pediatric">Pediatric Session (45 min) - $100</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="physio">Select Physiotherapist*</label>
+                            <select id="physio" name="physio" required>
+                                <option value="">Choose your preferred physiotherapist</option>
+                                <option value="alexander">Dr. Alexander Phillips</option>
+                                <option value="sarah">Dr. Sarah Johnson</option>
+                                <option value="michael">Dr. Michael Chen</option>
+                                <option value="emily">Dr. Emily Rodriguez</option>
+                                <option value="james">Dr. James Wilson</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="appointment-date">Appointment Date*</label>
+                            <input type="text" id="appointment-date" name="appointment-date" class="datepicker" required>
+                        </div>
+                        <div class="form-group time-slots">
+                            <label>Available Time Slots*</label>
+                            <div class="time-slot-container">
+                                <!-- Time slots will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn-prev">Previous</button>
+                            <button type="button" class="btn-next">Next</button>
+                        </div>
+                    </form>
+
+                    <!-- Step 3: Health Insurance -->
+                    <form id="booking-form-step-3" class="booking-form">
+                        <div class="insurance-info">
+                            <h3>Appointment Summary</h3>
+                            <div class="summary-details">
+                                <p><strong>Consultation:</strong> <span id="summary-consult"></span></p>
+                                <p><strong>Physiotherapist:</strong> <span id="summary-physio"></span></p>
+                                <p><strong>Date & Time:</strong> <span id="summary-datetime"></span></p>
+                                <p><strong>Total Fee:</strong> <span id="summary-fee"></span></p>
+                            </div>
+                        </div>
+                        <div class="rebate-section">
+                            <button type="button" id="rebate-button" class="btn-rebate">Process your rebate now with RebateNow</button>
+                            <div id="insurance-form" class="insurance-form hidden">
+                                <div class="form-group">
+                                    <label for="insurance-provider">Select Your Health Insurance Provider*</label>
+                                    <div class="insurance-logos">
+                                        <div class="insurance-option">
+                                            <input type="radio" id="medibank" name="insurance" value="Medibank">
+                                            <label for="medibank" class="insurance-label">Medibank</label>
+                                        </div>
+                                        <div class="insurance-option">
+                                            <input type="radio" id="ahm" name="insurance" value="AHM">
+                                            <label for="ahm" class="insurance-label">AHM</label>
+                                        </div>
+                                        <div class="insurance-option">
+                                            <input type="radio" id="bupa" name="insurance" value="Bupa">
+                                            <label for="bupa" class="insurance-label">Bupa</label>
+                                        </div>
+                                        <div class="insurance-option">
+                                            <input type="radio" id="hcf" name="insurance" value="HCF">
+                                            <label for="hcf" class="insurance-label">HCF</label>
+                                        </div>
+                                        <div class="insurance-option">
+                                            <input type="radio" id="nib" name="insurance" value="NIB">
+                                            <label for="nib" class="insurance-label">NIB</label>
+                                        </div>
+                                        <div class="insurance-option">
+                                            <input type="radio" id="hbf" name="insurance" value="HBF">
+                                            <label for="hbf" class="insurance-label">HBF</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="member-number">Member Number*</label>
+                                    <input type="text" id="member-number" name="member-number" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="reference-number">Reference Number*</label>
+                                    <input type="text" id="reference-number" name="reference-number" required>
+                                </div>
+                                <button type="button" id="calculate-rebate" class="btn-calculate">Calculate Rebate</button>
+                            </div>
+                            <div id="rebate-result" class="rebate-result hidden">
+                                <h3>Rebate Calculation</h3>
+                                <div class="rebate-details">
+                                    <p><strong>Consultation Fee:</strong> <span id="rebate-fee"></span></p>
+                                    <p><strong>Health Fund Rebate:</strong> <span id="rebate-amount"></span></p>
+                                    <p><strong>Gap Payment:</strong> <span id="gap-amount"></span></p>
+                                </div>
+                                <p class="rebate-note">Your claim has been submitted to your health fund. Please proceed to payment for the gap amount.</p>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn-prev">Previous</button>
+                            <button type="button" class="btn-next">Proceed to Payment</button>
+                        </div>
+                    </form>
+
+                    <!-- Step 4: Payment -->
+                    <form id="booking-form-step-4" class="booking-form">
+                        <div class="payment-summary">
+                            <h3>Payment Summary</h3>
+                            <div class="payment-details">
+                                <p><strong>Amount Due:</strong> <span id="payment-amount"></span></p>
+                            </div>
+                        </div>
+                        <div class="payment-options">
+                            <h3>Select Payment Method</h3>
+                            <div class="payment-methods">
+                                <div class="payment-method">
+                                    <input type="radio" id="credit-card" name="payment-method" value="credit-card" checked>
+                                    <label for="credit-card">
+                                        <i class="fas fa-credit-card"></i> Credit Card
+                                    </label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" id="paypal" name="payment-method" value="paypal">
+                                    <label for="paypal">
+                                        <i class="fab fa-paypal"></i> PayPal
+                                    </label>
+                                </div>
+                                <div class="payment-method">
+                                    <input type="radio" id="apple-pay" name="payment-method" value="apple-pay">
+                                    <label for="apple-pay">
+                                        <i class="fab fa-apple-pay"></i> Apple Pay
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="credit-card-form" class="credit-card-form">
+                            <div class="form-group">
+                                <label for="card-number">Card Number*</label>
+                                <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="expiry-date">Expiry Date*</label>
+                                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cvv">CVV*</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="123" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="card-name">Name on Card*</label>
+                                <input type="text" id="card-name" name="card-name" required>
+                            </div>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="button" class="btn-prev">Previous</button>
+                            <button type="button" id="complete-payment" class="btn-pay">Complete Payment</button>
+                        </div>
+                    </form>
+
+                    <!-- Step 5: Confirmation -->
+                    <div id="booking-confirmation" class="booking-form">
+                        <div class="confirmation-content">
+                            <div class="confirmation-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Booking Confirmed!</h3>
+                            <p>Your appointment has been successfully booked and confirmed.</p>
+                            <div class="confirmation-details">
+                                <p><strong>Appointment ID:</strong> <span id="confirmation-id"></span></p>
+                                <p><strong>Date & Time:</strong> <span id="confirmation-datetime"></span></p>
+                                <p><strong>Physiotherapist:</strong> <span id="confirmation-physio"></span></p>
+                                <p><strong>Location:</strong> 123 Healing Street, Wellness District, Sydney</p>
+                            </div>
+                            <p>A confirmation email has been sent to <span id="confirmation-email"></span></p>
+                            <div class="confirmation-actions">
+                                <button type="button" id="add-to-calendar" class="btn-calendar">
+                                    <i class="fas fa-calendar-plus"></i> Add to Calendar
+                                </button>
+                                <button type="button" id="print-confirmation" class="btn-print">
+                                    <i class="fas fa-print"></i> Print
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>PhysioPlus</h2>
+                    <p>Expert care for your physical wellbeing</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#booking">Book Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Healing Street, Wellness District, Sydney, NSW 2000</p>
+                    <p><i class="fas fa-phone"></i> (02) 1234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@physioplus.com.au</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 PhysioPlus. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="insurance-logos.js"></script>
+</body>
+</html> 
