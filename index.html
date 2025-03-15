@@ -250,28 +250,24 @@
                 <div class="booking-steps">
                     <div class="step active" data-step="1">
                         <div class="step-number">1</div>
-                        <div class="step-text">Personal Details</div>
+                        <div class="step-text">Details</div>
                     </div>
                     <div class="step" data-step="2">
                         <div class="step-number">2</div>
-                        <div class="step-text">Appointment Details</div>
+                        <div class="step-text">Health Insurance</div>
                     </div>
                     <div class="step" data-step="3">
                         <div class="step-number">3</div>
-                        <div class="step-text">Health Insurance</div>
+                        <div class="step-text">Payment</div>
                     </div>
                     <div class="step" data-step="4">
                         <div class="step-number">4</div>
-                        <div class="step-text">Payment</div>
-                    </div>
-                    <div class="step" data-step="5">
-                        <div class="step-number">5</div>
                         <div class="step-text">Confirmation</div>
                     </div>
                 </div>
 
                 <div class="booking-form-container">
-                    <!-- Step 1: Personal Details -->
+                    <!-- Step 1: Details (Combined Personal Details and Appointment Details) -->
                     <form id="booking-form-step-1" class="booking-form active">
                         <div class="form-group">
                             <label for="name">Full Name*</label>
@@ -293,13 +289,6 @@
                             <label for="referral">Upload Referral (if any)</label>
                             <input type="file" id="referral" name="referral">
                         </div>
-                        <div class="form-buttons">
-                            <button type="button" class="btn-next">Next</button>
-                        </div>
-                    </form>
-
-                    <!-- Step 2: Appointment Details -->
-                    <form id="booking-form-step-2" class="booking-form">
                         <div class="form-group">
                             <label for="consult-type">Consultation Type*</label>
                             <select id="consult-type" name="consult-type" required>
@@ -333,13 +322,12 @@
                             </div>
                         </div>
                         <div class="form-buttons">
-                            <button type="button" class="btn-prev">Previous</button>
                             <button type="button" class="btn-next">Next</button>
                         </div>
                     </form>
 
-                    <!-- Step 3: Health Insurance -->
-                    <form id="booking-form-step-3" class="booking-form">
+                    <!-- Step 2: Health Insurance (previously Step 3) -->
+                    <form id="booking-form-step-2" class="booking-form">
                         <div class="insurance-info">
                             <h3>Appointment Summary</h3>
                             <div class="summary-details">
@@ -407,8 +395,8 @@
                         </div>
                     </form>
 
-                    <!-- Step 4: Payment -->
-                    <form id="booking-form-step-4" class="booking-form">
+                    <!-- Step 3: Payment -->
+                    <form id="booking-form-step-3" class="booking-form">
                         <div class="payment-summary">
                             <h3>Payment Summary</h3>
                             <div class="payment-details">
@@ -464,7 +452,7 @@
                         </div>
                     </form>
 
-                    <!-- Step 5: Confirmation -->
+                    <!-- Step 4: Confirmation -->
                     <div id="booking-confirmation" class="booking-form">
                         <div class="confirmation-content">
                             <div class="confirmation-icon">

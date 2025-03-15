@@ -109,8 +109,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const currentStep = parseInt(currentForm.id.split('-').pop());
             
             if (validateStep(currentStep)) {
-                // If it's step 2, update the appointment summary
-                if (currentStep === 2) {
+                // If it's step 1, update the appointment summary
+                if (currentStep === 1) {
                     updateAppointmentSummary();
                 }
                 
@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
         bookingSteps.forEach(step => step.classList.remove('active'));
         
         // Show the current form and activate the current step
-        if (stepNumber === 5) {
+        if (stepNumber === 4) {
             // For the confirmation step
             document.getElementById('booking-confirmation').classList.add('active');
         } else {
@@ -167,8 +167,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
-        // Additional validation for step 2 (appointment details)
-        if (stepNumber === 2) {
+        // Additional validation for step 1 (combined details)
+        if (stepNumber === 1) {
             const selectedTimeSlot = document.querySelector('.time-slot.selected');
             if (!selectedTimeSlot) {
                 alert('Please select an available time slot.');
@@ -250,8 +250,8 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Proceed to Payment Button Click
-    const proceedToPaymentButton = document.querySelector('#booking-form-step-3 .btn-next');
+    // Handle the "Proceed to Payment" button
+    const proceedToPaymentButton = document.querySelector('#booking-form-step-2 .btn-next');
     if (proceedToPaymentButton) {
         proceedToPaymentButton.addEventListener('click', function() {
             // Update payment amount
@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('confirmation-email').textContent = document.getElementById('email').value;
             
             // Move to confirmation step
-            moveToStep(5);
+            moveToStep(4);
             
             // Send confirmation emails
             sendPatientEmail();
